@@ -94,13 +94,17 @@ Content-Type: application/json
   "city": "Ho Chi Minh City",
   "country": "VN",
   "weather_data": {
-    "temperature_celsius": 32.5,
-    "feels_like_celsius": 36.0,
-    "humidity_percent": 80,
-    "description": "overcast clouds",
-    "wind_speed_ms": 4.5
+    "temperature_celsius": 30.04,
+    "feels_like_celsius": 35.14,
+    "humidity_percent": 70,
+    "description": "light rain",
+    "wind_speed_ms": 3.09
   },
-  "ai_summary": "Ho Chi Minh City is hot and humid with overcast clouds. Temperature is 32.5 degrees Celsius with 80% humidity."
+  "ai_analysis": {
+    "sentiment": "POSITIVE",
+    "ai_comment": "Thời tiết hôm nay khá dễ chịu! (Độ tin cậy: 97.81%)",
+    "suggestion": "Trời nóng, nên mang theo nước và kem chống nắng."
+  }
 }
 ```
 
