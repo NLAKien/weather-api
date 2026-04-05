@@ -43,6 +43,7 @@ uvicorn main:app --reload
 ```
 
 Server chạy tại: http://127.0.0.1:8000
+Test API tại: http://127.0.0.1:8000/docs
 
 ---
 
