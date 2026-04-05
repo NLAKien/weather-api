@@ -10,7 +10,7 @@
 ## 🤖 Model sử dụng
 - **Tên model:** `sshleifer/distilbart-cnn-12-6`
 - **Link model:** https://huggingface.co/sshleifer/distilbart-cnn-12-6
-- **Loại:** Summarization (Tóm tắt văn bản)
+- **Loại:** Summarization (Tóm tắt văn bản -> Đọc mô tả thời tiết và đánh giá)
 
 ---
 
