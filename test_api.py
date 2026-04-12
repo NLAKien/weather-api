@@ -14,19 +14,15 @@ res = requests.get(f"{BASE_URL}/health")
 print(res.json())
 print()
 
-# Test POST /predict - Thành phố 1
-print("=== Test POST /predict - Ho Chi Minh City ===")
-res = requests.post(f"{BASE_URL}/predict", json={"city": "Ho Chi Minh City"})
-print(res.json())
-print()
-
-# Test POST /predict - Thành phố 2
-print("=== Test POST /predict - Hanoi ===")
-res = requests.post(f"{BASE_URL}/predict", json={"city": "Hanoi"})
-print(res.json())
-print()
-
-# Test lỗi - thành phố không tồn tại
-print("=== Test lỗi - thành phố không tồn tại ===")
-res = requests.post(f"{BASE_URL}/predict", json={"city": "abcxyznotacity"})
-print(res.status_code, res.json())
+print("=== Test POST /predict ===")
+print("(Nhập 0 để dừng)")
+while True:
+    city = input("\nNhập tên thành phố: ")
+    if city == "0":
+        print("Dừng test!")
+        break
+    res = requests.post(f"{BASE_URL}/predict", json={"city": city})
+    if res.status_code == 404:
+        print(f"Lỗi 404: Không tìm thấy thành phố '{city}'!")
+    else:
+        print(res.json())
