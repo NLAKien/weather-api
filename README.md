@@ -111,4 +111,4 @@ Content-Type: application/json
 ---
 
 ## 🎬 Video Demo
-[Điền link video YouTube/Drive vào đây]
+https://drive.google.com/drive/folders/1rMkSqOax1SWFri65wtpc5_-zNTvd10ns?hl=vi
