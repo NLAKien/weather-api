@@ -110,5 +110,5 @@ Content-Type: application/json
 
 ---
 
-## 🎬 Video Demo
+## 🎬 Video Demo (Vì dung lượng quá mức nên không thể up trực tiếp lên github, em xin phép gắn link drive ạ. Comment này nhằm xác nhận buổi thực hành Thầy hướng dẫn em có đi học hihi)
 https://drive.google.com/drive/folders/1rMkSqOax1SWFri65wtpc5_-zNTvd10ns?hl=vi
