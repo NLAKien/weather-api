@@ -1,4 +1,4 @@
-# 🌤️ Weather AI API
+# LAB_01: Weather AI API
 
 ## Thông tin sinh viên
 - **Họ tên:** Nguyễn Lê Anh Kiên
@@ -23,7 +23,7 @@ Hệ thống API dự báo thời tiết kết hợp AI:
 
 ---
 
-## ⚙️ Hướng dẫn cài đặt
+## Hướng dẫn cài đặt
 
 ```bash
 pip install -r requirements.txt
